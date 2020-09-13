@@ -1,10 +1,7 @@
 
-library(shiny)
-library(shinydashboard)
-library(biomaRt)
-
-#gene_list<-read.csv("genelist.csv",
-#                    header = T,stringsAsFactors = F)
+require(shiny)
+require(shinydashboard)
+require(biomaRt)
 
 ui <- dashboardPage(
   dashboardHeader(title = "医学统计园"),
